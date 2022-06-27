@@ -93,7 +93,8 @@ function draw() {
     
     ghost.depth = door.depth;
     ghost.depth+=1;
-
+    
+    //da linha 98 à 100 vc estava adicionando lifetime aos grupos de sprite
     door.lifetime=800;
     climber.lifetime=800;
     invisibleBlock.lifetime=800;
